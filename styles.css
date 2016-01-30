@@ -1,0 +1,67 @@
+body#home {
+    background: url("images/golden-gate.jpg") no-repeat fixed center;
+    background-size: cover;
+    text-align: center;
+    overflow: auto;
+}
+
+ul#nav {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    text-align: center;
+    background-color: #f3f3f3;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li.nav {
+	margin: 0 10px;
+	display: inline;
+}
+
+li.nav a {
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li.nav a.active {
+    background-color: #4CAF50;
+}
+
+div#about {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+li.social {
+	margin: 0 10px;
+    display: inline;
+}
+
+img.social {
+	width: 30px;
+	height: 30px;
+}
+
+.row .three {
+    width: 25%;
+}
+
+.row .nine {
+    width: 50%;
+}
+
+.column, .columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
