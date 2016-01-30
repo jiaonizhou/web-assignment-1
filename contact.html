@@ -27,23 +27,31 @@
 <body>
 	<!-- Contact Section
     ================================================== -->
-    <section id="contact">
-    	<h6>Electronic Mail</h6>
-			<ul>
-				<li><a href="mailto:zhoujiaoni14@gmail.com">zhoujiaoni14@gmail.com</a></li>
-	        </ul>
-	        <form action="mailto:zhoujiaoni14@gmail.com" method="post" enctype="text/plain">
-			Name:<br>
-			<input type="text" name="name" value="your name"><br>
-			E-mail:<br>
-			<input type="text" name="mail" value="your email"><br>
-			Comment:<br>
-			<input type="text" name="comment" value="your comment" size="50"><br><br>
-			<input type="submit" value="Submit">
-			<input type="reset" value="Reset">
-		</form>
-	</section><!-- Contact Section End-->
-
+    <div class="row">
+        <div class="ten columns">
+            <div class="desription">
+            <p> Please contact me </p>
+            </div>
+            <form action="mailto:zhoujiaoni14@gmail.com?subject=hello" method="post" enctype="text/plain">
+                <div>
+                    <label>Name:</label>
+                    <input type="text" name="name" value="your name">
+                </div>
+                <div> 
+                    <label>E-mail:</label>
+                    <input type="text" name="mail" value="your email">
+                </div>
+                <div>
+                    <label>Comment:</label>
+                    <input type="text" name="comment" value="your comment" size="50">
+                </div>
+                <div>
+                    <input class="submit" type="submit" value="Submit">
+                    <input class="reset" type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>        
 </body>
 </html>
 </body>
